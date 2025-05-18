@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Gabarito", serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    
+   
+  
+}
+
+.navbar img{
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+    width: fit-content;
+}
+
+.navbar-sec0{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
+
+}
+
+.navbar-sec0 img{
+    padding-bottom: 10px;
+}
+
+
+.navbar-sec1{
+    display: flex;
+    align-self:center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 13pt;
+    
+    
+   
+}
+
+.navbar-sec2{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    
+}
+
+.navbar-sec2__one{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: medium;
+    background-color: transparent;
+   
+}
+
+
+.navbar-sec2__two{
+    border: none;
+    padding: 15px;
+    background-color:black;
+    color: white;
+    border-radius: 30px;
+    font-size: medium;
+}
+
+.Whereto{
+    padding: 30px;
+}
+
+.Whereto h1{
+     font-size: 60px;
+     display: flex;
+     justify-content: center;
+}
+
+.Whereto-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.searchbar{
+    padding-left :10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+    width: 50%;
+    position: relative;
+    left: 25%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+    
+    
+
+   }
+
+.searchbar input{
+    width: 100%;
+    padding-left: 2px;
+   
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 25px;
+
+}
+
+.searchbar input:focus{
+    outline: none;
+} 
+
+.searchbar button{
+    border: none;
+    border-radius: 30px;
+    background-color: #84E9BD;
+    color: black;
+    font-size: large;
+
+    padding-top: 15px;
+    padding-right: 28px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    position: relative;
+    right: 5px;
+}
+
+.AiImage{
+margin: 60px;
+}
+
+.AiImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.Explore{
+margin-left: 60px;
+
+}
+
+.Explore p{
+    padding-top:  10px;
+    padding-bottom: 10px;
+}
+
+.Explore-img{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-basis: 60%;
+    
+}
+
+.Explore-img img{
+    border-radius: 20px;
+}
+
+.Getinspired{
+margin-left: 60px;
+margin-top: 50px;
+margin-right: 60px;
+}
+
+.Getinspired p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.Getinspired-sec1{
+   display: flex;
+ justify-content: space-between;
+   text-align: center;
+   
+}
+
+.Getinspired-img img{
+    border-radius: 20px;
+}
+
+
+.waystotour{
+margin-left: 60px;
+margin-top: 80px;
+margin-right: 60px;
+margin-bottom: 30px;
+}
+
+.waystotour p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.waystotour-sec1{
+    display: flex;
+    justify-content:space-between;
+  
+ 
+}
+
+.waystotour-img img{
+    border-radius: 20px;
+}
+
+.back-moretoexplore{
+background-color: #F2F1EC;
+padding: 10px;
+}
+
+.moretoexplore{
+margin-left: 60px;
+margin-top: 30px;
+margin-right: 60px;
+margin-bottom: 30px;
+
+}
+
+.moretoexplore-sec1{
+    padding-top: 10px;
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.moretoexplore-img p{
+    padding-top: 10px;
+}
+
+.moretoexplore-img img{
+    border-radius: 20px;
+}
+
+.dreamyournexttrip{
+    margin-left: 60px;
+margin-top: 80px;
+margin-right: 60px;
+}
+
+.dreamyournexttrip h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.dreamyournexttrip-sec1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dreamyournexttrip-sec1 img{
+    border-radius: 20px;
+}
+
+
+.topdestinations{
+    margin-left: 60px;
+margin-top: 80px;
+margin-right: 60px;
+}
+
+.topdestinations h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: grey
+
+}
+
+.topdestinations-sec1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topdestinations-sec1 img{
+    border-radius: 10px;
+}
+
+.Bookimage1{
+    margin-left: 60px;
+    margin-top: 80px;
+    margin-right: 60px;
+    background-color: #F2F1EC;
+   
+    }
+
+.Bookimage1-sec1{
+    padding: 30px;
+}
+
+.Bookimage2-sec2{
+    
+    text-align: center;
+    width: 400px;
+    position: relative;
+    left: 780px;
+    bottom: 400px;
+}
+
+.Bookimage2-sec2 button{
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+   
+}
+
+
+.Advertisement img{
+    width:100%;
+    height: 638px;
+    position: relative;
+    bottom: 100px;
+}
+
+.footer{
+  
+    background-color: #F2F1EC;
+    position: relative;
+    bottom: 50px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.flex{
+    display: flex;
+    gap: 10px;
+  }
+
+.flex p{
+    padding: 5px;
+}
+
+.footer-sec4 {
+    margin-top: 20px;
+    display: flex;
+  
+
+}
+
+.footer__s2 {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.footer__s2--1 {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__s2--1__sub1 img {
+
+    width: 40px;
+}
+
+.footer__s2--1__sub2--p p {
+    font-size: small;
+    opacity: 0.8;
+}
+
+.footer__s2--1__sub2--a1,
+.footer__s2--1__sub2--a2 {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__s2--1__sub2--a a {
+    color: black;
+    opacity: 0.8;
+}
+
+.footer__s2--1__sub2--a a:hover {
+    opacity: 0.5;
+}
+
+.footer__s2--1--1 {
+    width: 780px;
+}
+
+.footer__s2--1--1 p {
+    margin-top: 5px;
+    font-size: small;
+    opacity: 0.8;
+}
+
+.footer__s2--1--1 a {
+    position: absolute;
+    left: 605px;
+    bottom: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer__s2--1--1 a:hover {
+    text-decoration: underline;
+}
+
+.footer__s3 {
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    opacity: 0.8;
+}
+
+.footer__s3--2 {
+    display: flex;
+    gap: 2px;
+}
+
+.footer__s3--2 a {
+    color: black;
+}
+
+.footer__s3--2 a:hover {
+    opacity: 0.5;
+}
+
+.footer__s4 {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 100px;
+    bottom: 80px;
+}
+
+.footer__s4 select {
+    opacity: 0.9;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 187px;
+    height: 30px;
+    border-radius: 9px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+.footer__s5 {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
